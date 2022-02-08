@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css'
-import Tmdb from './Tmdb';
+import { Tmdb } from './Tmdb';
 import MovieRow from './components/movie_row';
 import FeaturedMovie from './components/featured_movie';
 import Header from './components/header/';
