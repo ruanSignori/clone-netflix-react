@@ -23,7 +23,7 @@ export const Tmdb =  {
         return [
             {
                 slug: 'originals',
-                title: 'Originais do site pirata do paikkkkkkk',
+                title: 'Originais do site do paikkkkkkk',
                 items: await basicFetch(`/discover/tv?with_network=213&language=pt-BR&api_key=${API_KEY}`)
             },
             {
