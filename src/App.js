@@ -58,11 +58,11 @@ export default function App() {
         <p>Dados pegos do site <a href='https://www.themoviedb.org/'>Themoviedb.org</a></p>
       </footer>
 
-      {movieList.length <= 0 &&
-        <div className='loading'>
-          <img src='https://media.filmelier.com/noticias/br/2020/03/Netflix_LoadTime.gif' alt='Carregando' width={window.innerWidth / 2} height={window.innerHeight / 2} />
-        </div>
-      }
+      // {movieList.length <= 0 &&
+      //   <div className='loading'>
+      //     <img src='https://media.filmelier.com/noticias/br/2020/03/Netflix_LoadTime.gif' alt='Carregando' width={window.innerWidth / 2} height={window.innerHeight / 2} />
+      //   </div>
+      // }
     </div>
   )
 }
