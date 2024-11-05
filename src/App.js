@@ -40,7 +40,7 @@ export default function App() {
 
   return (
     <div className="page">
-
+      
       <Header black={blackHeader}/>
 
       {featuredData && 
@@ -57,6 +57,9 @@ export default function App() {
         <p>Site desenvolvido no video-aula da B7Web</p>
         <p>Dados pegos do site <a href='https://www.themoviedb.org/'>Themoviedb.org</a></p>
       </footer>
+        <script>
+          alert('Este projeto é uma clonagem de uma interface de streaming, desenvolvido para fins de estudos');
+        </script>
 
       // {movieList.length <= 0 &&
       //   <div className='loading'>
