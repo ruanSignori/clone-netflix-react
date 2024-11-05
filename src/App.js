@@ -55,7 +55,6 @@ export default function App() {
 
       <footer>
         <p>Site desenvolvido no video-aula da B7Web</p>
-        <p>&copy;Direitos de imagem para Netflix </p>
         <p>Dados pegos do site <a href='https://www.themoviedb.org/'>Themoviedb.org</a></p>
       </footer>
 
